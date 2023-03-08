@@ -1,99 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <header>
-        <h1>Exercice HTML</h1>
-    </header>
-    <ul>
-        <li><a href="#article-1">Article n°1</a></li>
-        <li><a href="#article-2">Article n°2</a></li>
-        <ul>
-            <li>Article n°2 - Bloc n°1</li>
-            <li>Article n°2 - Bloc n°2</li>
-            <ul>
-                <li>Article n°2 - Bloc n°1</li>
-                <li>Article n°2 - Bloc n°2</li>
-            </ul>
-        </ul>
-        </li>
-    </ul>
-    <article class="forecast">
-        <h2 id="article-1">Article n°1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non arcu ultricies, ornare diam sed, eleifend
-            libero. Proin porta enim magna, vitae porttitor neque tincidunt quis. Praesent massa justo, egestas nec odio
-            quis, cursus sagittis dolor. Duis vulputate vehicula tempus. Curabitur molestie commodo tellus, a fringilla
-            velit dictum ut. Praesent nec sapien eu lorem fermentum porttitor et quis massa. Sed pulvinar vel orci
-            dapibus feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            Donec augue lorem, ultrices id congue ut, tempus at massa. Etiam pulvinar arcu sapien, et luctus augue
-            facilisis eget. Sed at auctor ligula. Nullam quis porttitor dui. Morbi non auctor ex. Nunc in interdum nunc,
-            nec placerat dolor. </p>
-    </article>
-    <article class="forecast">
-        <h2 id="article-2">Article n°2</h2>
-        <h3>Article n°2 - Bloc n°1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non arcu ultricies, ornare diam sed, eleifend
-            libero. Proin porta enim magna, vitae porttitor neque tincidunt quis. Praesent massa justo, egestas nec odio
-            quis, cursus sagittis dolor. Duis vulputate vehicula tempus. Curabitur molestie commodo tellus, a fringilla
-            velit dictum ut. Praesent nec sapien eu lorem fermentum porttitor et quis massa. Sed pulvinar vel orci
-            dapibus feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            Donec augue lorem, ultrices id congue ut, tempus at massa. Etiam pulvinar arcu sapien, et luctus augue
-            facilisis eget. Sed at auctor ligula. Nullam quis porttitor dui. Morbi non auctor ex. Nunc in interdum nunc,
-            nec placerat dolor. </p>
-
-        <h3>Article n°2 - Bloc n°2</h3>
-        <h4>Article n°2 - Bloc n°2 - Sous-bloc n°1</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non arcu ultricies, ornare diam sed, eleifend
-            libero. Proin porta enim magna, vitae porttitor neque tincidunt quis. Praesent massa justo, egestas nec odio
-            quis, cursus sagittis dolor. Duis vulputate vehicula tempus. Curabitur molestie commodo tellus, a fringilla
-            velit dictum ut. Praesent nec sapien eu lorem fermentum porttitor et quis massa. Sed pulvinar vel orci
-            dapibus feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            Donec augue lorem, ultrices id congue ut, tempus at massa. Etiam pulvinar arcu sapien, et luctus augue
-            facilisis eget. Sed at auctor ligula. Nullam quis porttitor dui. Morbi non auctor ex. Nunc in interdum nunc,
-            nec placerat dolor. </p>
-
-        <h4>Article n°2 - Bloc n°2 - Sous-bloc n°2</h4>
-        <p>
-            <img src="https://i2.wp.com/leblogducodeur.fr/wp-content/uploads/2019/04/TCP.jpg?w=1200" style="float:left"
-                width="190" height="84" /></img>
-            Nulla hendrerit non elit nec lobortis. Proin in fringilla sem, quis pretium risus. Integer vestibulum libero
-            vel purus sagittis consectetur. Sed auctor lacus at efficitur dignissim. Nullam lacinia eros ut mauris
-            fermentum, quis viverra eros hendrerit. Integer lacinia ac odio nec lacinia.
-        </p>
-    </article>
-
-    <div>
-        <a href="https://www.apprendre-html-et-css.com/liens_internes_externes_et_ancres.html">Apprendre HTML</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSS Game</title>
+    <meta
+      name="description"
+      content="CSSGame est un mini-jeux customisable afin d'initier les utilisateurs aux propriétées
+      css et à l'inspecteur d'éléments des navigateur."
+    />
+    <meta name="keywords" content="css,game,tutoriel,cours,initiation css" />
+    <meta name="author" content="https://joazco.com" />
+    <meta property="og:title" content="Joazco" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="CSSGame est un mini-jeux customisable afin d'initier les utilisateurs aux propriétées
+      css et à l'inspecteur d'éléments des navigateur."
+    />
+    <meta name="robots" content="all" />
+    <meta name="theme-color" content="#ffffff" />
+    <link href="/public/game/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="exercice-github">
+      <a href="https://github.com/joazco/CSSGame"
+        ><img src="/public/game/github.png" alt="Github Icon"
+      /></a>
+    </div>
+    <div id="exercice-title">
+      <h1>CSS Game</h1>
+    </div>
+    <div id="exercice-todo">
+      <p id="exercice-level-information"></p>
+      <p id="exercice-level-target"></p>
+      <p id="exercice-todo-text"></p>
+      <div id="exercice-todo-link"></div>
+    </div>
+    <div id="exercice-start">
+      <div id="exercice-start-close">&#9747;</div>
+      <p>
+        1. Pour commencer le jeu faite un clique droit sur le bloc en dessous et
+        cliquer sur
+        <i>"Inspecter"</i>.<br />
+        2. Entre les accolades "élément" ajouter les propriétées css demandé
+        dans l'énoncé.
+        <br />
+        <br />
+      </p>
+      <div>
+        <a href="/public/game/tuto1.png" target="_blank"
+          ><img src="/public/game/tuto1.png"
+        /></a>
+        <a href="/public/game/tuto2.png" target="_blank"
+          ><img src="/public/game/tuto2.png"
+        /></a>
+      </div>
+      <p>3. En suite vous pouvez fermer ce bloc.</p>
+    </div>
+    <div id="exercice-block">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+      aspernatur sapiente quas earum tempora hic ratione laborum, nesciunt nulla
+      ad.
     </div>
 
-    <br>
-    <br>
-
-    <div>
-        <form method="post" action="form.php">
-            <div class="champ">
-                <label for="pseudo">Entrez un pseudonyme : </label>
-                <input type="text" id="pseudo">
-            </div>
-            <div class="champ">
-                <label for="pass">Entrez un mot de passe :</label>
-                <input type="password" id="pass">
-            </div>
-            <div class="champ">
-                <label for="mail">Entrez un mail :</label>
-                <input type="email" id="mail">
-            </div>
-        </form>
-    </div>
-
-
-</body>
-
+    <script src="/configuration.js"></script>
+    <script src="/levels.js"></script>
+    <script src="/public/game/utils.js"></script>
+    <script src="/public/game/index.js"></script>
+    <script src="/public/game/solution.js"></script>
+  </body>
 </html>
