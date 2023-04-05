@@ -1,5 +1,4 @@
 * {
-  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 }
 body {
   padding-top: 20px;
@@ -7,9 +6,15 @@ body {
 .container {
   margin-bottom: 20px;
 }
-.row > div {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  background-color: rgba(var(--bd-violet-rgb), 0.15);
-  border: 1px solid rgba(var(--bd-violet-rgb), 0.3);
+.red {
+  min-height: 100px;
+  background-color: bisque;
+}
+.white {
+  min-height: 100px;
+  background-color: white;
+}
+.blue {
+  min-height: 150px;
+  background-color: #6b6bff;
 }
