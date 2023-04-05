@@ -7,16 +7,11 @@ body {
   margin-bottom: 20px;
 }
 
-.red {
-  min-height: 100px;
-  background-color: bisque;
-}
-.white {
-  min-height: 100px;
-  background-color: white;
-}
-
-.blue {
+.wagon {
   min-height: 150px;
-  background-color: #6b6bff;
+  background-color: rgb(196, 196, 196);
+  border: 1px solid black;
+}
+.wagon img {
+  width: 100%;
 }
